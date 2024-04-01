@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(11, 79, 104);
+}
+section{
+    width:320px;
+    background-color: rgb(148, 214, 240);
+    border-radius: 10px;
+    padding: 20px;
+    margin:auto;
+    margin-top:200px;
+    box-shadow: 0 0 15px 1px rgba(2, 2, 2, 0.15);
+}
+h1{
+    margin-left:10px;
+}
+textarea[placeholder]{
+    text-align: center;
+}
+section .fdiv{
+    display: flex;
+    justify-content: space-between;
+    margin:15px 15px 0px 15px;
+}
+.T_Character span{
+    color:purple;
+}
+.Remaining span{
+    color:red;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    body{
+        margin:0;
+        padding:0;
+        background-color: rgb(11, 79, 104);
+    }
+    section{
+        width:200px;
+        height:200px;
+        background-color: rgb(148, 214, 240);
+        border-radius: 10px;
+        margin:20px auto 20px auto;
+    }
+    h1{
+        font-size: large;
+    }
+    textarea[placeholder]{
+        width:200px;
+        height:80px;
+        text-align: center;
+    }
+    section .fdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .T_Character span{
+        color:purple;
+    }
+    .Remaining span{
+        color:red;
+    }
+}
